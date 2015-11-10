@@ -10,7 +10,7 @@ The application works by sending control code to the IO-Control Module using IPC
 
 Upon receiving the confirmation code, the Web Control interface will show ON/OFF message to each corresponding device HTML section. The button will also change color indicating the switch is in ON or OFF state.      
 
-Make sure all app dependencies (express, body-parser and socket.io) are installed before using it. 
+Make sure all app dependencies (express, body-parser and socket.io) are installed before using the app. 
 
 Start the app using the command $node app in CLI and open http://localhost:3000 in any browser on your dev PC.
 
