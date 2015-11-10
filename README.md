@@ -1,20 +1,20 @@
 # NodeJS-Web-Control-Project
 
-A simple web control interface for the IO-ControlModule using Angular and NodeJS/Express.
+A simple web control interface for the IO-control module using Angular and NodeJS/Express.
 
-You can turn ON and OFF remotely the LED's in the I/O control module using your mobile device.
+You can turn ON and OFF remotely the LED's in the IO-control module using your mobile device.
 
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
 
-The application works by sending control code to the IO-Control Module using IPC (inter-process communication).  The remote IO-Control Module in return should respond with a confirmation event code.
+The application works by sending control codes to the IO-control module using IPC (inter-process communication).  The remote IO-control module in return will respond with a confirmation event code using websocket.
 
-Upon receiving the confirmation code, the Web Control interface will show ON/OFF message to each corresponding device HTML section. The button will also change color indicating the switch is in ON or OFF state.      
+Upon receiving the confirmation code, the web control interface will show an ON/OFF message to each corresponding device HTML section. The button color will also change indicating an ON or OFF state condition.      
 
 Make sure all app dependencies (express, body-parser and socket.io) are installed before using the app. 
 
-Start the app using the command $node app in CLI and open http://localhost:3000 in any browser on your dev PC.
+You can simply start it using the command $node app in CLI and open http://localhost:3000 from a browser on your dev PC or mobile device to access the web control interface.
 
-Ensure the IO-Control Module is also running as a separate process.
+Ensure the IO-control module is also running as a separate process.
 
 
 
