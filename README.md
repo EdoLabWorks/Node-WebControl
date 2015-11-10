@@ -14,7 +14,7 @@ Make sure all app dependencies (express, body-parser and socket.io) are installe
 
 Start the app using the command $node app in CLI and open http://localhost:3000 in any browser on your dev PC.
 
-Ensure the IO-Control Module is also running as separate process.
+Ensure the IO-Control Module is also running as a separate process.
 
 
 
