@@ -12,7 +12,7 @@ Upon receiving the confirmation code, the web control interface will show an ON/
 
 Make sure all app dependencies (express, body-parser and socket.io) are installed before using the app. 
 
-You can simply start it using the command $node app in CLI and open http://localhost:3000 from a browser on your dev PC or mobile device to access the web control interface.
+You can simply start it using the command  $node app  in CLI and open http://localhost:3000 from a browser on your dev PC or mobile device to access the web control interface.
 
 Ensure the IO-control module is also running as a separate process.
 
