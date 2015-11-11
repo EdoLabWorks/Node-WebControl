@@ -11,17 +11,19 @@ The application works by sending control codes to the IO-control module using IP
 Upon receiving the confirmation code, the web control interface will show an ON/OFF message to each corresponding device HTML section. The button color will also change indicating an ON or OFF state condition.      
 
 Make sure all dependencies (express, body-parser and socket.io) are installed before running the application.
-~~~js
+
+To install all dependencies, use the following command in CLI (command line interface).
+~~~bash
 $ npm install express body-parser socket.io --save
 ~~~~
 
 
-To start the application, issue the following command in CLI.   
-~~~js
+To start the application, use the following command in CLI.   
+~~~bash
 $ node app
 ~~~~
 
-and type the following in your browser address bar 
+and type the following in your browser address bar. 
 ~~~~
 http://localhost:3000 
 ~~~~
