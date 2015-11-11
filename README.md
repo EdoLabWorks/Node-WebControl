@@ -15,7 +15,17 @@ Make sure all dependencies (express, body-parser and socket.io) are installed be
 $ npm install express body-parser socket.io --save
 ~~~~
 
-You can simply start it using the command  $node app  in CLI and open http://localhost:3000 from a browser on your dev PC or mobile device to access the web control interface.
+
+To start the application, issue the following command in CLI.   
+~~~js
+$ node app
+~~~~
+
+and type the following in your browser address bar 
+~~~~
+http://localhost:3000 
+~~~~
+
 
 Ensure the IO-control module is also running as a separate process.
 
