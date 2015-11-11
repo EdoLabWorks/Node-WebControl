@@ -10,9 +10,9 @@ The application works by sending control codes to the IO-control module using IP
 
 Upon receiving the confirmation code, the web control interface will show an ON/OFF message to each corresponding device HTML section. The button color will also change indicating an ON or OFF state condition.      
 
-Make sure all app dependencies (express, body-parser and socket.io) are installed before using the app.
-
-~~~~
+Make sure all dependencies (express, body-parser and socket.io) are installed before running the application.
+~~~js
+$ npm install express body-parser socket.io --save
 ~~~~
 
 You can simply start it using the command  $node app  in CLI and open http://localhost:3000 from a browser on your dev PC or mobile device to access the web control interface.
