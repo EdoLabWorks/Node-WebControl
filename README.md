@@ -25,7 +25,7 @@ $ npm install express body-parser socket.io --save
 ~~~~
 
 
-To start the application, use the following command inside the app root folder.   
+To start the application, use the following CLI command inside the app root folder.   
 ~~~bash
 $ node app
 ~~~~
