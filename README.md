@@ -12,7 +12,7 @@ Upon receiving the confirmation code, the web control interface will show an ON/
 
 Make sure all dependencies (express, body-parser and socket.io) are installed before running the application.
 
---Installation
+## Installation
 To install all dependencies, use the following CLI command inside the app root folder.
 
 ~~~bash
@@ -38,6 +38,6 @@ http://localhost:3000
 
 Ensure the IO-control module is also running as a separate process.
 
---License
+## License
 MIT 
 
