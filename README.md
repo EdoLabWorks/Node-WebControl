@@ -12,7 +12,7 @@ Upon receiving the confirmation code, the web control interface will show an ON/
 
 Make sure all dependencies (express, body-parser and socket.io) are installed before running the application.
 
-To install all dependencies, use the following command in CLI (command line interface) from the app root folder.
+To install all dependencies, use the following CLI command inside the app root folder.
 
 ~~~bash
 $ npm install
@@ -24,7 +24,7 @@ $ npm install express body-parser socket.io --save
 ~~~~
 
 
-To start the application, use the following command from the app root folder.   
+To start the application, use the following command inside the app root folder.   
 ~~~bash
 $ node app
 ~~~~
