@@ -10,7 +10,7 @@ The application works by sending control codes to the IO-control module using IP
 
 Upon receiving the confirmation code, the web control interface will show an ON/OFF message to each corresponding device HTML section. The button color will also change indicating an ON or OFF state condition.      
 
-Make sure all dependencies (express, body-parser and socket.io) are installed before running the application.
+Make sure all dependencies are installed before running the application.
 
 ## Installation
 To install all dependencies, use the following CLI command inside the app root folder.
