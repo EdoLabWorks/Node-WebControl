@@ -38,13 +38,13 @@ http://localhost:3000
 Ensure the IO-control module is also running as a separate process.
 
 ## Using your Mobile Device
-To test it from your mobile device/other PC, open a port in your development or host PC where the app is running. 
+To test it from your mobile device/other PC, open a port in your development PC where the app is running. 
 Get the ip using ipconfig in Windows. Use the ip instead of localhost in your mobile device/other PC as shown below.
 ~~~~
 http://192.168.1.169:3000/ 
 ~~~~
 Note: Your ip will be different from the example above.
-Your development or host PC and your mobile device/other PC must be connected to the same SSID of your WiFi network.  
+Your development PC and your mobile device/other PC must be connected to the same SSID of your WiFi network.  
 
 ## License
 MIT 
