@@ -1,6 +1,6 @@
 # NodeJS-Web-Control-Project
 
-A simple web control interface for the IO-control module using AngularJS and Node/ExpressJS/Socket.IO.
+A simple web control interface for the IO-control module using AngularJS and Node/ExpressJS.
 
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
 
