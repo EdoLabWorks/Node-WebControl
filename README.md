@@ -30,12 +30,12 @@ To start the application, use the following CLI command inside the app root fold
 $ node app
 ~~~~
 
-and type the following in your browser address bar. 
+and type the following in your development PC browser address bar. 
 ~~~~
 http://localhost:3000 
 ~~~~
 
-To access/test it from your mobile device/other PC, open a port in your development or host PC where the app is running. 
+To test it from your mobile device/other PC, open a port in your development or host PC where the app is running. 
 Get the ip using ipconfig in Windows. Use the ip instead of localhost in your mobile device/other PC.
 
 Ensure the IO-control module is also running as a separate process.
