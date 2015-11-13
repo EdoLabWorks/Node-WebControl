@@ -37,7 +37,7 @@ http://localhost:3000
 
 Ensure the IO-control module is also running as a separate process.
 
-
+## Using your Mobile Device
 To test it from your mobile device/other PC, open a port in your development or host PC where the app is running. 
 Get the ip using ipconfig in Windows. Use the ip instead of localhost in your mobile device/other PC.
 
