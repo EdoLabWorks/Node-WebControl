@@ -2,9 +2,9 @@
 
 A simple web control interface for the IO-control module using AngularJS and Node/ExpressJS/Socket.IO.
 
-You can turn ON and OFF remotely the LED's in the IO-control module using your mobile device/other PC in your private WiFi network.
-
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
+
+You can turn ON and OFF remotely the LED's in the IO-control module using your mobile device/other PC in your private WiFi network.
 
 ##Quick Overview of Typical Setup
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
