@@ -8,7 +8,9 @@ You can turn ON and OFF remotely the LED's in the IO-control module using your m
 
 It works by sending control codes to the IO-control module using IPC (inter-process communication).  The remote IO-control module in return will respond with a confirmation event code using websocket.
 
-Upon receiving the confirmation code, the web control interface will show an ON/OFF message to each corresponding device HTML section. The button color will also change indicating an ON or OFF state condition.      
+Upon receiving the confirmation code, the web control interface will show an ON/OFF message to each corresponding device HTML section. 
+
+The button color will also change not only indicating an ON or OFF state condition but also as confirmation it has established successful connection with the IO-control module.      
 
 Make sure all dependencies are installed before running the application.
 
