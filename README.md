@@ -35,6 +35,8 @@ and type the following in your browser address bar.
 http://localhost:3000 
 ~~~~
 
+To access it from your mobile device/other PC, open a port in your development PC or host where the app is running. 
+Get the ip using ipconfig in Windows and use it instead of localhost.
 
 Ensure the IO-control module is also running as a separate process.
 
