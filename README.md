@@ -1,6 +1,6 @@
 # NodeJS-Web-Control-Project
 
-A simple web control interface for the IO-control module using Angular and Node/ExpressJS.
+A simple web control interface for the IO-control module using AngularJS and Node/ExpressJS/Socket.IO.
 
 You can turn ON and OFF remotely the LED's in the IO-control module using your mobile device/other PC in your private WiFi network.
 
