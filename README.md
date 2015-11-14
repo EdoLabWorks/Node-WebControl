@@ -44,7 +44,7 @@ Ensure the IO-control module is also running as a separate process.
 
 ### Using your Mobile Device
 To test it from your mobile device/other PC, open a port from your development PC where the app is running. 
-Get the local ip using ipconfig "IPv4 address" in Windows. Use the ip instead of localhost in your mobile device/other PC as shown below.
+Get the local ip (IPv4 address) using ipconfig in Windows. Use the ip instead of localhost in your mobile device/other PC as shown below.
 ~~~~
 http://192.168.1.169:3000 
 ~~~~
