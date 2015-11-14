@@ -17,7 +17,7 @@ The button color will also change not only indicating an ON or OFF state conditi
 
 Make sure all dependencies are installed before running the application.
 
-## Installation
+### Installation
 To install all dependencies, use the following CLI command inside the app root folder.
 
 ~~~bash
@@ -42,7 +42,7 @@ http://localhost:3000
 
 Ensure the IO-control module is also running as a separate process.
 
-## Using your Mobile Device
+### Using your Mobile Device
 To test it from your mobile device/other PC, open a port in your development PC where the app is running. 
 Get the ip using ipconfig in Windows. Use the ip instead of localhost in your mobile device/other PC as shown below.
 ~~~~
@@ -51,6 +51,6 @@ http://192.168.1.169:3000/
 Note: Your ip will be different from the example above.
 Your development PC and your mobile device/other PC must be connected to the same SSID of your WiFi network.  
 
-## License
+### License
 MIT 
 
