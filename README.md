@@ -1,6 +1,6 @@
 ## NodeJS-Web-Control-Project
 
-A simple web control interface for the IO-control module using AngularJS and Node/ExpressJS.
+A simple web control interface for the [IO-control module](https://github.com/EdoLabWorks/IO-ControlModule) using AngularJS and Node/ExpressJS.
 
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
 
