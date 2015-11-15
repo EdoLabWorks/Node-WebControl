@@ -40,8 +40,8 @@ and type the following in your development PC browser address bar.
 http://localhost:3000 
 ~~~~
 
-Ensure the IO-control module is also running as a separate process.
-https://github.com/EdoLabWorks/IO-ControlModule
+Ensure the [IO-control module](https://github.com/EdoLabWorks/IO-ControlModule) is also running as a separate process.
+
 
 ### Using your Mobile Device
 To test it from your mobile device/other PC, open a port from your development PC where the app is running. 
