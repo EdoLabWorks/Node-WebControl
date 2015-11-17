@@ -6,7 +6,7 @@ A simple web control interface for the [IO-control module](https://github.com/Ed
 
 You can turn ON and OFF remotely the LED's in the IO-control module using your mobile device/other PC in your private WiFi network.
 
-### How it work
+### How it works
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 
 It works by sending control codes to the IO-control module using IPC (inter-process communication).  The remote IO-control module in return will respond with a confirmation event code using websocket.
