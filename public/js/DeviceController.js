@@ -13,78 +13,78 @@ device.controller('DeviceController', ['$scope', 'RESTservice', function ($scope
 	// device 1
 	vm.device1ON = function () {
 		RESTservice.device1ON().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	vm.device1OFF = function () {
 		RESTservice.device1OFF().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	// device 2
 	vm.device2ON = function () {
 		RESTservice.device2ON().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	vm.device2OFF = function () {
 		RESTservice.device2OFF().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	// device 3
 	vm.device3ON = function () {
 		RESTservice.device3ON().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	vm.device3OFF = function () {
 		RESTservice.device3OFF().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	// device 4
 	vm.device4ON = function () {
 		RESTservice.device4ON().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	vm.device4OFF = function () {
 		RESTservice.device4OFF().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
         
 	// device 5
 	vm.device5ON = function () {
 		RESTservice.device5ON().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	vm.device5OFF = function () {
 		RESTservice.device5OFF().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	// device 6
 	vm.device6ON = function () {
 		RESTservice.device6ON().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 
 	vm.device6OFF = function () {
 		RESTservice.device6OFF().then(function (response) {
-		vm.list = response.data.device; 
+		vm.state = response.data.device; 
 		});
         };
 	
