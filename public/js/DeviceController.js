@@ -1,4 +1,4 @@
-"strict"
+"use strict"
 var device = angular.module("MainApp", []);
 device.controller("DeviceController", ["$scope", "RESTservice", function ($scope, RESTservice) {
 	var vm = {};

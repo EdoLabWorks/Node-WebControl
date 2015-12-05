@@ -1,4 +1,4 @@
-"strict"
+"use strict"
 var socket = io();
 socket.on("DeviceEvent", function(msg){
 		var m = "";

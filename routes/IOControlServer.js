@@ -1,4 +1,4 @@
-"strict"
+"use strict"
 var net = require("net");
 // socket.io TCP server to accept event signal from the IO-control module 
 exports.server = function (io){
