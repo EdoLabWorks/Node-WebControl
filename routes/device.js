@@ -1,43 +1,34 @@
-'strict'
-var express = require('express');
-var bodyParser = require('body-parser');
+"strict"
+var express = require("express");
+var bodyParser = require("body-parser");
+var net = require("net");
 
-// This Tcp client will send the control code pattern
-// to the remote I/O Module
-/********************************
--o-  Device TCP Client Setup  -o-
-*********************************/
-var net = require('net');
-
-var TCPconnect = function (controldata){
+// Tcp client to send control code to the remote IO-control module
+var TCPconnect = function (data){
 	var client = net.connect({
 	port: 51111,
-	host: 'localhost'
+	host: "localhost"
 	}, function() {
-	console.log('client connected to TCP server');
-	this.write(controldata);
+	console.log("TCP client connected");
+	this.write(data);
 	});
 
-	client.on('error', function(error) {
+	client.on("error", function(error) {
 	console.log(error);
 	});
-	client.on('end', function() {
-	console.log('client connection to TCP server ended');
+	client.on("end", function() {
+	console.log("TCP client connection ended");
 	});
 };
 
-/***********************************
--o-  Device Control API Handler  -o-
-************************************/
-
+// Device Control API Handler
 var r = express.Router();
 r.use(bodyParser.json());
 
-// dummy variable, we are not expecting any response
 var result = [];
 
-//*** DEVICE 1 ***
-r.route('/d1') //ON
+/* DEVICE 1 */
+r.route("/d1")
    .post(function (req, res, next) {
 	TCPconnect("ON1");
 	res.json({ response : result });
@@ -47,8 +38,8 @@ r.route('/d1') //ON
 	res.json({ response : result });
 });
 
-//*** DEVICE 2 ***
-r.route('/d2') //ON
+/* DEVICE 2 */
+r.route("/d2")
    .post(function (req, res, next) {
 	TCPconnect("ON2");
 	res.json({ response : result });
@@ -58,8 +49,8 @@ r.route('/d2') //ON
 	res.json({ response : result });
 })
 
-//*** DEVICE 3 ***
-r.route('/d3') //ON
+/* DEVICE 3 */
+r.route("/d3")
    .post(function (req, res, next) {
 	TCPconnect("ON3");
 	res.json({ response : result });
@@ -69,8 +60,8 @@ r.route('/d3') //ON
 	res.json({ response : result });
 })
 
-//*** DEVICE 4 ***
-r.route('/d4') //ON
+/* DEVICE 4 */
+r.route("/d4")
     .post(function (req, res, next) {
 	TCPconnect("ON4");
 	res.json({ response : result });
@@ -80,8 +71,8 @@ r.route('/d4') //ON
 	res.json({ response : result });
 })
 
-//*** DEVICE 5 ***
-r.route('/d5') //ON
+/* DEVICE 5 */
+r.route("/d5") 
     .post(function (req, res, next) {
 	TCPconnect("ON5");
 	res.json({ response : result });
@@ -91,8 +82,8 @@ r.route('/d5') //ON
 	res.json({ response : result });
 })
 
-//*** DEVICE 6 ***
-r.route('/d6') //ON
+/* DEVICE 6 */
+r.route("/d6")
     .post(function (req, res, next) {
 	TCPconnect("ON6");
 	res.json({ response : result });
