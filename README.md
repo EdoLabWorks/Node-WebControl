@@ -40,7 +40,7 @@ and type the following in your development PC browser address bar.
 http://localhost:3000 
 ~~~~
 
-Ensure the [IO-control module](https://github.com/EdoLabWorks/IO-ControlModule) is also running as a separate process.
+Ensure [IO-control module](https://github.com/EdoLabWorks/IO-ControlModule) or the C++   [Cpp-ControlModule](https://github.com/EdoLabWorks/Cpp-ControlModule) is also running as a separate process.
 
 
 ### Using your Mobile Device
