@@ -4,14 +4,14 @@ A simple web control interface for the C# [IO-control module](https://github.com
 
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
 
-You can turn ON and OFF remotely the LED's in the IO-control module using your mobile device/other PC in your private WiFi network.
+Turn ON and OFF the LED's in the IO-control module using your mobile device/other PC in your private WiFi network.
 
 ### How it works
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 
-It works by sending control codes to the IO-control module using IPC (inter-process communication).  The remote IO-control module in return will respond with a confirmation event code using websocket.
+Using inter-process communication (IPC), we are sending control codes to the IO-control module.  In return, it will respond with a confirmation code using websocket.
 
-Upon receiving the confirmation code, the web control interface will show an ON/OFF message to each corresponding device HTML section. 
+Upon receiving the confirmation code, the web control client will show an ON/OFF message accordingly. 
 
 The button color will also change not only indicating an ON or OFF state condition but also as confirmation it has established successful connection with the IO-control module.      
 
