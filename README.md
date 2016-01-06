@@ -4,21 +4,21 @@ A simple web control interface for the C# [IO-control module](https://github.com
 
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
 
-Turn ON and OFF the LED's in the IO-control module using your mobile device/other PC in your private WiFi network.
+Turn ON and OFF the LED's in our backend control module using your mobile device/other PC in your private WiFi network.
 
 ### How it works
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 
 Using inter-process communication (IPC), we are sending control codes to the IO-control module.  In return, it will respond with a confirmation code using websocket.
 
-Upon receiving the confirmation code, the web control client will show an ON/OFF message accordingly. 
+Upon receiving a confirmation code, the web control client will show an ON/OFF message accordingly. 
 
-The button color will also change not only indicating an ON or OFF state condition but also as confirmation it has established successful connection with the IO-control module.      
+The button will also change color showing an ON or OFF state condition confirming a successful connection with our backend control module.      
 
 Make sure all dependencies are installed before running the application.
 
 ### Installation
-To install all dependencies, use the following CLI command inside the app root folder.
+To install all dependencies, use the following CLI command in the app folder.
 
 ~~~bash
 $ npm install
@@ -30,7 +30,7 @@ $ npm install express body-parser socket.io --save
 ~~~~
 
 
-To start the application, use the following CLI command inside the app root folder.   
+To start the application, use the following CLI command in the app folder.   
 ~~~bash
 $ node app
 ~~~~
