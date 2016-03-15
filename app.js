@@ -7,11 +7,10 @@ var io = require("socket.io")(http);
 var TCPmodule = require("./routes/IOControlServer.js").server(io);
 // device control API handler 
 var deviceAPI = require("./routes/route.js").routeHandler(app);
-var port = 3000;
 app.use(express.static(__dirname + "/public"));
 // index.html container
 app.use(express.static(__dirname + "/SPA"));
-
+var port = 3000;
 http.listen( port, function(){
   console.log("WebControl http server listening on: " + port);
 });
