@@ -41,7 +41,7 @@
 	  <form role="form">
 	  <button class="btn-lg btn-primary" type="button">
 	  Device <span class="badge">1</span>
-      </button>
+      	  </button>
 	  <button id="btnON1" class="btn-lg btn-info" ng-click="vm.device1ON()" >ON</button>
 	  <button id="btnOFF1" class="btn-lg btn-info" ng-click="vm.device1OFF()" >OFF</button>
 	  <span id="dev1"></span>
@@ -70,7 +70,7 @@
 	  <div class="panel-body">
 	  <form role="form">
 	  <button class="btn-lg btn-primary" type="button">
-      Device <span class="badge">3</span>
+      	  Device <span class="badge">3</span>
 	  </button>
 	  <button id="btnON3" class="btn-lg btn-info" ng-click="vm.device3ON()" >ON</button>
  	  <button id="btnOFF3" class="btn-lg btn-info" ng-click="vm.device3OFF()" >OFF</button>
@@ -125,10 +125,6 @@
    </div>
 </div>
 
-	<!-- socket.io client setup  -->
-	<script src="/socket.io/socket.io.js"></script>
-	<script src="js/DeviceIOSocket.js"></script>
-	
 </div> <!-- row -->  
 		<div>
 		   <footer class="footer"  ng-style="{color:'lightblue'}">
@@ -137,6 +133,9 @@
 		</div>
 </div> <!-- container -->  
 	
+	<!-- socket.io client setup  -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="js/DeviceIOSocket.js"></script>
 </body>
 </html>
 
