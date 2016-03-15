@@ -51,7 +51,6 @@ device.controller("DeviceController", ["$scope", "RESTservice", function ($scope
 	// device 5
 	vm.device5ON = function () {
 		RESTservice.device5ON().then(function (response) {
-		//vm.state = response.data.device; 
 		});
     };
 	vm.device5OFF = function () {
