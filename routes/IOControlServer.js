@@ -5,12 +5,13 @@ exports.server = function (io){
 	var port = 5555;
 	net.createServer(function(server) {
 	server.setNoDelay(true);
-    server.on("data", function(message) {
+    	server.on("data", function(message) {
 		console.log("socket.io TCP server connected");
 		console.log("DeviceEvent: " + message.toString());
 		io.emit("DeviceEvent", message.toString()); 
 	});
-    server.on("error", function(error) {console.log("" + error);
+    	server.on("error", function(error) {
+    		console.log(" " + error);
 		server.destroy();
 	});
 	server.on("end", function() {
