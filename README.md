@@ -2,7 +2,7 @@
 
 A simple web control interface for the C# [IO-control module](https://github.com/EdoLabWorks/IO-ControlModule) or C++ [Cpp-ControlModule](https://github.com/EdoLabWorks/Cpp-ControlModule) using AngularJS and Node/ExpressJS.
 
-![](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
+[](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
 
 Turn ON and OFF the LED's in our backend control module using your mobile device/other PC in your private WiFi network.
 
