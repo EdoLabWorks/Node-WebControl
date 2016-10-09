@@ -1,6 +1,7 @@
-## NodeJS-Web-Control-Project
+## Node-Web-Control Project 
 
-A simple web control interface for the C# [IO-control module](https://github.com/EdoLabWorks/IO-ControlModule) or C++ [Cpp-ControlModule](https://github.com/EdoLabWorks/Cpp-ControlModule) using AngularJS and Node/ExpressJS.
+A simple node web control framework or app container for remote I/O control using express, angular and socket.io. 
+Use it as web interface for the C# [IO-control module](https://github.com/EdoLabWorks/IO-ControlModule) or C++ [Cpp-ControlModule](https://github.com/EdoLabWorks/Cpp-ControlModule).
 
 [](https://github.com/EdoLabWorks/ximgs/blob/master/NodeWebControl.png)
 
