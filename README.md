@@ -16,7 +16,7 @@ The button will also change color showing an ON or OFF state condition confirmin
 
 Make sure all dependencies are installed before running the application.
 
-### Installation
+### Installation (Linux or Windows PC) 
 To install all dependencies, use the following CLI command in the app folder.
 
 ~~~~
